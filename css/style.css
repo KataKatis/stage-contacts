@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+h1.stage{
+	color: #FFF;
+	font-size: 55px;
+	font-family: cursive;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: #000000 -5px 5px 2px;
+}
+
+h2{
+	font-size: 35px;
+	font-family: system-ui;
+	padding-left: 8px;
+}
+
+.titretableau{
+	color: #FFF;
+	text-decoration: underline;
+}
+
+table{
+	border-collapse: collapse;
+	font-size: 27px;
+}
+
+table caption{
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+table tbody tr td a{
+	color: #16a085;
+	text-decoration: none;
+}
+
+table tbody tr td a:hover{
+	text-decoration: underline;
+}
+
+td, th{
+	border: 1px solid #000;
+}
+
+.page{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li.page a{
+	color: #000;
+	border-radius: 6px;
+	font-size: 25px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 3px;
+}
+
+nav.menu-nav ul li.page a:hover{
+	background-color: #2c3e50;
+}
+
+div#lettremotivation p, div#cv a{
+	padding-left: 5px;
+}
+
+div#lettremotivation h3, div#cv h3{
+	color: #FFF;
+	font-size: 25px;
+	font-family: system-ui;
+	padding-left: 5px;
+}
